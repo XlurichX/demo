@@ -39,3 +39,6 @@ steps:
 
 images:
   - gcr.io/${PROJECT_ID}/demo:${COMMIT_SHA}
+
+logsBucket: gs://test-bucket-1-2-3
+serviceAccount: 85318446678-compute@developer.gserviceaccount.com
